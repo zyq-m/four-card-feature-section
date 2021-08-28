@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git Repository](https://github.com/zyq-m/four-card-feature-section)
+- Live Site URL: [Feature section](https://zyq-m.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -54,8 +54,8 @@ margin: auto;
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/zyq-m)
-- Twitter - [@yourusername](https://www.twitter.com/unul28)
+- Frontend Mentor - [@zyq-m](https://www.frontendmentor.io/profile/zyq-m)
+- Twitter - [@unul28](https://www.twitter.com/unul28)
 
 ## Acknowledgments
 
