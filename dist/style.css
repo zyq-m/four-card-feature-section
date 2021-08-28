@@ -1,0 +1,153 @@
+html {
+  font-size: 93.75%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 5.75rem 2.133rem;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3;
+  background-color: #fafafa;
+  height: auto;
+}
+
+h1, h2, h3, h4, p {
+  margin-top: 0;
+}
+
+h1, h2, h3 {
+  color: #4c4e61;
+}
+
+p, h4 {
+  color: #a3a5ae;
+}
+
+header {
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  max-width: 20.73rem;
+}
+
+header h1 {
+  font-size: 1.65rem;
+  font-weight: 200;
+  margin-bottom: 0.6rem;
+}
+
+header h2 {
+  font-size: 1.6rem;
+}
+
+header p {
+  line-height: 1.5;
+  margin-bottom: 5.125rem;
+}
+
+.card, div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5625rem;
+}
+
+.card__box, div__box {
+  background-color: white;
+  padding: 2.2rem 2rem;
+  border-top: 4px solid;
+  border-radius: 0.6rem;
+  -webkit-box-shadow: 0px 6px 16px -5px #a3a5ae;
+          box-shadow: 0px 6px 16px -5px #a3a5ae;
+  max-width: 20.73rem;
+}
+
+.card__top-border--cyan, div__top-border--cyan {
+  border-color: #45d3d3;
+}
+
+.card__top-border--red, div__top-border--red {
+  color: #ea5353;
+}
+
+.card__top-border--orange, div__top-border--orange {
+  color: #fcaf4a;
+}
+
+.card__top-border--blue, div__top-border--blue {
+  color: #549ef2;
+}
+
+.card__heading, div__heading {
+  font-size: 1.35rem;
+  margin-bottom: 0.3rem;
+}
+
+.card__sub-heading, div__sub-heading {
+  font-size: 0.86rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #a3a5ae;
+}
+
+.card__icon, div__icon {
+  display: block;
+  margin-left: auto;
+  width: 3.8rem;
+}
+
+@media (min-width: 68.75em) {
+  header {
+    max-width: 33.66rem;
+  }
+  header h1, header h2 {
+    font-size: 2.4rem;
+  }
+  header h1 {
+    margin-bottom: 0.3rem;
+  }
+  header h2 {
+    margin-bottom: 1.4rem;
+  }
+  header p {
+    margin-bottom: 4.125rem;
+  }
+  .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card__box {
+    max-width: 23.53rem;
+    height: 16.66rem;
+  }
+  .card__icon {
+    position: relative;
+    top: 1rem;
+    width: auto;
+  }
+  .card__heading {
+    margin-bottom: 0.6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
